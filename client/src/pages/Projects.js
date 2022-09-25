@@ -3,6 +3,10 @@ import Wrapper from "../assests/wrapper/Projects";
 import { Link } from "react-router-dom";
 import project from "../utils/ProjectInfo";
 import { useState } from "react";
+import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
+import { FiArrowRight, FiArrowLeft } from "react-icons/fi";
+import ProjectSmall from "../components/ProjectSmall";
+
 const Projects = () => {
   const [item, setItem] = useState(0);
 
@@ -24,16 +28,29 @@ const Projects = () => {
   return (
     <Wrapper>
       <div className="project-container">
-        <div className="project">
-          <div>{project[item].title}</div>
-          <div>{project[item].description}</div>
-          <div>{project[item].info}</div>
-          <div>{project[item].code}</div>
-          <div>{project[item].live}</div>
-
-          <button onClick={decrease}>left </button>
-          <button onClick={increase}>right</button>
+        <button onClick={decrease} className="btn left">
+          <FiArrowLeft />
+        </button>
+        <div className="project project-big">
+          <div className="img-container">
+            <img src={project[item].image} alt="" className="img" />
+          </div>
+          <h1 className="info">{project[item].title}</h1>
+          <div className="info">{project[item].description}</div>
+          <div className="info">{project[item].info}</div>
+          <div className="btn-container info">
+            <a href={project[item].code} target="_blank" className="code-btn">
+              Code
+            </a>
+            <a href={project[item].live} target="_blank" className="demo-btn">
+              Live Demo
+            </a>
+          </div>
         </div>
+        <ProjectSmall project={project} item={item} setItem={setItem} />
+        <button onClick={increase} className="btn right">
+          <FiArrowRight />
+        </button>
       </div>
     </Wrapper>
   );
