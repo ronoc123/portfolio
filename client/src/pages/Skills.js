@@ -97,6 +97,8 @@ const Skills = () => {
         </div>
         <h2 className="education-title">Education</h2>
         <div className="education-container">
+          <li>TEXAS TECH UNIVERISTY | LUBBOCK, TEXAS</li>
+
           <li>Bachelor of Science in Nutritional Sciences and Dietetics</li>
           <li>Graduation: December 2021</li>
           <li> Presidents Honor List two semesters</li>

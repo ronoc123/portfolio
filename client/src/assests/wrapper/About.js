@@ -18,8 +18,8 @@ const Wrapper = styled.div`
     place-items: center;
   }
   .ring {
-    width: 30rem;
-    height: 30rem;
+    width: 35rem;
+    height: 35rem;
     background: white;
     border-radius: 50%;
     box-shadow: var(--dark-shadow);
@@ -36,10 +36,12 @@ const Wrapper = styled.div`
   .text {
     margin-bottom: 1rem;
     text-align: center;
+    font-size: 2rem;
   }
   .heading {
     margin-bottom: 1rem;
     text-align: center;
+    font-size: 3rem;
   }
   .logo {
     font-size: 3rem;
@@ -63,7 +65,7 @@ const Wrapper = styled.div`
   }
 
   .name {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     color: var(--clr-primary-4);
   }
   .clr {

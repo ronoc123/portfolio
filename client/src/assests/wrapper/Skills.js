@@ -12,7 +12,7 @@ const Wrapper = styled.div`
     width: 70%;
     justify-self: center;
     grid-template-columns: 1fr;
-    grid-template-rows: 10rem 2.5rem 18rem 4rem 12rem auto;
+    grid-template-rows: 10rem 2.5rem 18rem 4rem 8rem auto;
     margin-bottom: 2rem;
     /* min-height: 40rem; */
     height: 100%;
@@ -57,6 +57,7 @@ const Wrapper = styled.div`
     padding: 1.5rem;
     cursor: pointer;
     border-radius: 1rem;
+    margin-bottom: 2rem;
   }
   .icon {
     display: grid;
@@ -93,7 +94,8 @@ const Wrapper = styled.div`
       row-gap: 1rem;
     }
     .main-container {
-      grid-template-rows: 7rem 2.5rem 3fr 4rem 2fr auto;
+      /* grid-template-rows: 7rem 2.5rem 3fr 4rem 2fr auto; */
+      grid-template-rows: 7rem 3rem 1fr 3rem 10rem 10rem;
     }
   }
 
@@ -104,6 +106,19 @@ const Wrapper = styled.div`
   @media screen and (max-width: 600px) {
     margin-left: 2.5rem;
     width: calc(100vw - 2.5rem);
+    .main-container {
+      width: 90%;
+    }
+    .education-container {
+      padding-left: 1rem;
+    }
+    .icon {
+      height: 4rem;
+      width: 6.5rem;
+    }
+    .icon-size {
+      font-size: 1rem;
+    }
     .skills-container {
       display: grid;
       grid-template-columns: 1fr 1fr;
