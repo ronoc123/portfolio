@@ -7,7 +7,7 @@ const ProjectSmall = ({ project, item }) => {
       <div>Icon</div>
       <p>{project[item].description}</p>
       <p>{project[item].info}</p>
-      <div>
+      <div className="btn-container">
         <a href={project[item].code} target="_blank" className="code-btn">
           Code
         </a>

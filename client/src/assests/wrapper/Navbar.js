@@ -2,12 +2,14 @@ import styled from "styled-components";
 
 const Wrapper = styled.div`
   display: grid;
+  grid-template-columns: 1fr;
   width: 15rem;
   height: 100vh;
   position: fixed;
 
   .navbar {
     height: 100vh;
+    width: 100%;
     background: var(--clr-primary-4);
     display: grid;
     grid-template-columns: 1fr;
@@ -116,10 +118,10 @@ const Wrapper = styled.div`
     }
   }
   @media screen and (max-width: 600px) {
+    width: 2.5rem;
     .navbar {
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 1fr;
-      width: 2.5rem;
     }
     .tiny {
       display: block;

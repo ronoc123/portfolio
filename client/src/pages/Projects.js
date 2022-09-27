@@ -37,7 +37,7 @@ const Projects = () => {
           </div>
           <h1 className="info">{project[item].title}</h1>
           <div className="info">{project[item].description}</div>
-          <div className="info">{project[item].info}</div>
+
           <div className="btn-container info">
             <a href={project[item].code} target="_blank" className="code-btn">
               Code

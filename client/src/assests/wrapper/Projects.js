@@ -17,10 +17,11 @@ const Wrapper = styled.div`
   .project {
     display: grid;
     justify-content: center;
-    grid-template-rows: 1fr 3rem 2rem 2rem 5rem;
+    grid-template-rows: 1fr 3rem 3.5rem 3rem;
     background: white;
-    height: 45rem;
-    width: 60rem;
+    height: 70%;
+    max-height: 45rem;
+    max-width: 60rem;
     border-radius: 0.5rem;
     box-shadow: var(--dark-shadow);
   }
@@ -38,7 +39,8 @@ const Wrapper = styled.div`
   }
   .img {
     width: 62rem;
-    height: 100%;
+    /* height: 35rem; */
+
     border-radius: 0.5rem;
   }
   .btn {
@@ -53,30 +55,31 @@ const Wrapper = styled.div`
   }
   .info {
     display: grid;
-
     justify-self: center;
   }
   .code-btn {
     background: var(--clr-primary-5);
     color: white;
-    height: 3rem;
+    font-size: 1rem;
     display: grid;
     place-items: center;
-    width: 7rem;
+    width: 8rem;
   }
 
   .demo-btn {
     background: var(--clr-primary-5);
     color: white;
-    height: 3rem;
+    font-size: 1rem;
+    width: 8rem;
     display: grid;
     place-items: center;
-    width: 7rem;
+    padding: 0.5rem;
   }
   .btn-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 2rem;
+    padding-bottom: 1rem;
   }
 
   @media screen and (max-width: 900px) {
@@ -86,6 +89,10 @@ const Wrapper = styled.div`
   @media screen and (max-width: 1500px) {
     .project-big {
       display: none;
+    }
+    .small-project {
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      border: 2px solid red;
     }
     .project-container {
       grid-template-columns: 4rem 1fr 4rem;

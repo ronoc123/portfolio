@@ -3,10 +3,10 @@ import { Outlet, Link } from "react-router-dom";
 
 const SharedLayout = () => {
   return (
-    <div className="full-page">
+    <>
       <Navbar />
       <Outlet />
-    </div>
+    </>
   );
 };
 
