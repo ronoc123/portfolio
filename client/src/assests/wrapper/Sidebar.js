@@ -8,6 +8,7 @@ const Wrapper = styled.div`
     width: 100%;
     height: 100%;
     background: white;
+
     transition: var(--transition);
     z-index: -1;
     transform: translate(-100%);
@@ -52,13 +53,18 @@ const Wrapper = styled.div`
     display: grid;
   }
   .link-name {
+    display: grid;
     transition: var(--transition);
+    color: black;
+    font-size: 1.5rem;
+    justify-self: left;
   }
   .link:hover {
     color: white;
-    background: black;
+    background: var(--clr-primary-5);
     .link-name {
       transform: translate(2%);
+      color: white;
     }
   }
 `;

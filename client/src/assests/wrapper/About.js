@@ -18,8 +18,8 @@ const Wrapper = styled.div`
     place-items: center;
   }
   .ring {
-    width: 35rem;
-    height: 35rem;
+    width: 38rem;
+    height: 45rem;
     background: white;
     border-radius: 50%;
     box-shadow: var(--dark-shadow);
@@ -64,6 +64,13 @@ const Wrapper = styled.div`
     border-radius: 0.5rem;
   }
 
+  .picture {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+
   .name {
     font-size: 3.5rem;
     color: var(--clr-primary-4);
@@ -71,10 +78,12 @@ const Wrapper = styled.div`
   .clr {
     color: var(--clr-primary-5);
   }
+  .ring {
+  }
 
   @media screen and (max-width: 1400px) {
     .ring {
-      height: 25rem;
+      height: 30rem;
       width: 25rem;
     }
     .info {

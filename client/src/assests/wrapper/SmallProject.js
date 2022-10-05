@@ -9,6 +9,22 @@ const Wrapper = styled.div`
   border-radius: 0.5rem;
   box-shadow: var(--dark-shadow);
   padding: 2rem;
+  .title {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .icon {
+    font-size: 3rem;
+    display: grid;
+    justify-self: center;
+    padding: 1rem;
+  }
+  .hidden {
+    display: none;
+  }
 
   @media screen and (max-width: 1500px) {
     display: grid;

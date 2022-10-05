@@ -25,11 +25,11 @@ const Contact = () => {
           required
           className="text-input"
         />
-        {/* <input
+        <input
           type="hidden"
           name="_next"
-          value="https://localhost:3000"
-        ></input> */}
+          value="https://conor-portfolio.netlify.app/"
+        ></input>
         <button type="submit" className="submit-btn">
           Send
         </button>

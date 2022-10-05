@@ -42,9 +42,17 @@ const Projects = () => {
             <a href={project[item].code} target="_blank" className="code-btn">
               Code
             </a>
-            <a href={project[item].live} target="_blank" className="demo-btn">
-              Live Demo
-            </a>
+            {project[item].live ? (
+              <a
+                href={project[item]?.live}
+                target="_blank"
+                className="demo-btn"
+              >
+                Live Demo
+              </a>
+            ) : (
+              <></>
+            )}
           </div>
         </div>
         <ProjectSmall project={project} item={item} setItem={setItem} />

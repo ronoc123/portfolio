@@ -14,6 +14,7 @@ import { MdOutlineViewColumn } from "react-icons/md";
 import { FiDatabase } from "react-icons/fi";
 import { TbLetterC } from "react-icons/tb";
 import { BsMicrosoft } from "react-icons/bs";
+import { DiCss3 } from "react-icons/di";
 
 const Skills = () => {
   return (
@@ -23,73 +24,73 @@ const Skills = () => {
         <h2 className="skills-title">Skills</h2>
         <div className="skills-container">
           <span className="icon">
-            <span className="icon-size">
+            <span className="icon-size javascript">
               <SiJavascript />
             </span>
             <span className="text">Javascript</span>
           </span>
           <span className="icon">
-            <span className="icon-size">
+            <span className="icon-size react">
               <FaReact />
             </span>
             <span className="text">React</span>
           </span>
           <span className="icon">
-            <span className="icon-size">
+            <span className="icon-size html">
               <AiOutlineHtml5 />
             </span>
             <span className="text">HTML</span>
           </span>
           <span className="icon">
-            <span className="icon-size">
-              <GrCss3 />
+            <span className="icon-size css">
+              <DiCss3 />
             </span>
             <span className="text">CSS</span>
           </span>
           <span className="icon">
-            <span className="icon-size">
+            <span className="icon-size node">
               <FaNodeJs />
             </span>
             <span className="text">Node.Js</span>
           </span>
           <span className="icon">
-            <span className="icon-size">
+            <span className="icon-size postgresql">
               <SiPostgresql />
             </span>
             <span className="text">PostgreSQL</span>
           </span>
           <span className="icon">
-            <span className="icon-size">
+            <span className="icon-size express">
               <SiExpress />
             </span>
             <span className="text">Express</span>
           </span>
           <span className="icon">
-            <span className="icon-size">
+            <span className="icon-size mongodb">
               <SiMongodb />
             </span>
             <span className="text">MonogoDB</span>
           </span>
           <span className="icon">
-            <span className="icon-size">
+            <span className="icon-size c">
               <BsMicrosoft />
             </span>
             <span className="text">C#</span>
           </span>
           <span className="icon">
-            <span className="icon-size">
+            <span className="icon-size asp">
               <SiDotnet />
             </span>
             <span className="text">ASP.NET</span>
           </span>
           <span className="icon">
-            <span className="icon-size">
+            <span className="icon-size mvc">
               <MdOutlineViewColumn />
             </span>
             <span className="text">MVC</span>
           </span>
           <span className="icon">
-            <span className="icon-size">
+            <span className="icon-size ssms">
               <FiDatabase />
             </span>
             <span className="text">SSMS</span>

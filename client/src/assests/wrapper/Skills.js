@@ -64,7 +64,8 @@ const Wrapper = styled.div`
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     place-items: center;
-    background: white;
+    background: #323330;
+    color: white;
     align-self: flex-start;
     width: 8rem;
     border-radius: 1rem;
@@ -79,6 +80,43 @@ const Wrapper = styled.div`
   .text {
     align-self: start;
   }
+  .javascript {
+    color: #f0db4f;
+  }
+  .react {
+    color: #61dbfb;
+  }
+  .html {
+    color: #e34c26;
+  }
+  .css {
+    color: #264de4;
+  }
+  .node {
+    color: #68a063;
+  }
+  .postgresql {
+    color: #0064a5;
+  }
+  .express {
+    color: #f0db4f;
+  }
+  .mongodb {
+    color: #4db33d;
+  }
+  .c {
+    color: #9b4993;
+  }
+  .asp {
+    color: #ff0000;
+  }
+  .mvc {
+    color: #4db33d;
+  }
+  .ssms {
+    color: #a24857;
+  }
+
   @media screen and (max-width: 1500px) {
     .skills-container {
       grid-template-columns: 1fr 1fr 1fr;

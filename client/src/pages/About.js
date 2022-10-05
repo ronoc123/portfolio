@@ -1,12 +1,15 @@
 import Wrapper from "../assests/wrapper/About";
 import { Link } from "react-router-dom";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import image from "../assests/images/headshot.jpeg";
 
 const About = () => {
   return (
     <Wrapper>
       <div className="about-container">
-        <div className="ring big-screen"></div>
+        <div className="ring big-screen">
+          <img src={image} alt="" className="picture" />
+        </div>
         <div className="info">
           <h1 className="heading">
             Hi, my name is <span className="name clr">Conor</span>{" "}

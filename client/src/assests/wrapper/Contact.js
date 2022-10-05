@@ -17,7 +17,7 @@ const Wrapper = styled.div`
     height: 60vh;
     width: 50vw;
     min-height: 25rem;
-    min-width: 20rem;
+    min-width: 25rem;
     justify-content: center;
     background: white;
     box-shadow: var(--dark-shadow);
@@ -35,6 +35,7 @@ const Wrapper = styled.div`
     font-size: 1.1rem;
     padding-left: 0.2rem;
     justify-self: center;
+    resize: none;
   }
 
   .email-input {

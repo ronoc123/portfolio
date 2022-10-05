@@ -21,15 +21,18 @@ const Sidebar = ({ closeSidebar, isSidebarOpen }) => {
           <Link to={"/"} onClick={() => closeSidebar()} className="link">
             <span className="link-name">Home</span>
           </Link>
-          <Link to={"/product"} onClick={() => closeSidebar()} className="link">
-            <span className="link-name">Collection</span>
-          </Link>
           <Link
-            to={"/checkout"}
+            to={"/projects"}
             onClick={() => closeSidebar()}
             className="link"
           >
-            <span className="link-name">Checkout</span>
+            <span className="link-name">Projects</span>
+          </Link>
+          <Link to={"/resume"} onClick={() => closeSidebar()} className="link">
+            <span className="link-name">Resume</span>
+          </Link>
+          <Link to={"/contact"} onClick={() => closeSidebar()} className="link">
+            <span className="link-name">Contact</span>
           </Link>
         </div>
       </div>

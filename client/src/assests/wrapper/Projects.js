@@ -61,23 +61,35 @@ const Wrapper = styled.div`
     background: var(--clr-primary-5);
     color: white;
     font-size: 1rem;
+    padding: 0.2rem;
     display: grid;
     place-items: center;
-    width: 8rem;
+    width: 50%;
+    height: 100%;
+    border-radius: 0.2rem;
+    justify-self: right;
+  }
+  .hidden {
+    display: hidden;
   }
 
   .demo-btn {
     background: var(--clr-primary-5);
     color: white;
     font-size: 1rem;
-    width: 8rem;
+    width: 60%;
+    height: 100%;
     display: grid;
+    justify-self: left;
     place-items: center;
     padding: 0.5rem;
+    border-radius: 0.2rem;
   }
   .btn-container {
     display: grid;
+    width: 100%;
     grid-template-columns: 1fr 1fr;
+    place-items: center;
     column-gap: 2rem;
     padding-bottom: 1rem;
   }
@@ -92,7 +104,6 @@ const Wrapper = styled.div`
     }
     .small-project {
       grid-template-rows: 1fr 1fr 1fr 1fr;
-      border: 2px solid red;
     }
     .project-container {
       grid-template-columns: 4rem 1fr 4rem;
