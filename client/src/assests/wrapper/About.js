@@ -18,8 +18,8 @@ const Wrapper = styled.div`
     place-items: center;
   }
   .ring {
-    width: 38rem;
-    height: 45rem;
+    width: 32rem;
+    height: 40rem;
     background: white;
     border-radius: 50%;
     box-shadow: var(--dark-shadow);
@@ -30,8 +30,6 @@ const Wrapper = styled.div`
   .socials {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
-    /* border: 2px solid red; */
   }
   .text {
     margin-bottom: 1rem;

@@ -11,19 +11,19 @@ const Wrapper = styled.div`
 
   .form-container {
     display: grid;
+    /* place-items: center; */
     padding-top: 2rem;
     padding-bottom: 2rem;
-    /* border: 2px solid red; */
-    height: 60vh;
-    width: 50vw;
-    min-height: 25rem;
-    min-width: 25rem;
+    height: 50%;
+    min-height: 24rem;
+    max-width: 60rem;
+    width: 90%;
     justify-content: center;
     background: white;
     box-shadow: var(--dark-shadow);
     border-radius: 0.5rem;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 3fr 1fr;
+    /* grid-template-rows: 1fr 1fr 3fr 1fr; */
   }
   .title {
     text-align: center;
@@ -59,8 +59,19 @@ const Wrapper = styled.div`
   }
 
   @media screen and (max-width: 900px) {
-    margin-left: 2rem;
-    width: calc(100vw - 2rem);
+    margin-left: 5rem;
+    width: calc(100vw - 5rem);
+  }
+  @media screen and (max-width: 600px) {
+    margin-left: 2.5rem;
+    width: calc(100vw - 2.5rem);
+    .email-input {
+      height: 40%;
+      font-size: 1rem;
+    }
+    .text-input {
+      font-size: 0.9rem;
+    }
   }
 `;
 

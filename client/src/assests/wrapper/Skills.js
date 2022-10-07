@@ -135,6 +135,9 @@ const Wrapper = styled.div`
       /* grid-template-rows: 7rem 2.5rem 3fr 4rem 2fr auto; */
       grid-template-rows: 7rem 3rem 1fr 3rem 10rem 10rem;
     }
+    .text {
+      font-size: 0.8rem;
+    }
   }
 
   @media screen and (max-width: 900px) {

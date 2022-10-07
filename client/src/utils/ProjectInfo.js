@@ -15,6 +15,7 @@ const project = [
     code: "https://github.com/ronoc123/zapper",
     image: bugTracker,
     icon: <FaBug />,
+    color: "green",
   },
   {
     logo: "logo2",
@@ -26,6 +27,7 @@ const project = [
     code: "https://github.com/ronoc123/e-commerce",
     image: store,
     icon: <TbBuildingSkyscraper />,
+    color: "orange",
   },
   {
     logo: "logo3",
@@ -36,6 +38,7 @@ const project = [
     code: "https://github.com/ronoc123/Inventory-Management",
     image: inventory,
     icon: <SiGoogletagmanager />,
+    color: "orange",
   },
 ];
 

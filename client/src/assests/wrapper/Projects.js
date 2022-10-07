@@ -39,8 +39,6 @@ const Wrapper = styled.div`
   }
   .img {
     width: 62rem;
-    /* height: 35rem; */
-
     border-radius: 0.5rem;
   }
   .btn {
@@ -97,13 +95,29 @@ const Wrapper = styled.div`
   @media screen and (max-width: 900px) {
     margin-left: 2rem;
     width: calc(100vw - 2rem);
+    .demo-btn {
+      font-size: 0.5rem;
+    }
+    .code-btn {
+      font-size: 0.5rem;
+    }
+    .btn {
+      font-size: 2rem;
+    }
+    .project-container {
+      grid-template-columns: auto 1fr auto;
+    }
   }
   @media screen and (max-width: 1500px) {
     .project-big {
       display: none;
     }
     .small-project {
-      grid-template-rows: 1fr 1fr 1fr 1fr;
+      transition: var(--transition);
+      grid-template-rows: 1fr 1fr 1fr;
+    }
+    .small-project:hover {
+      border: 2px solid #cefad0;
     }
     .project-container {
       grid-template-columns: 4rem 1fr 4rem;
