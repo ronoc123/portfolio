@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <Wrapper>
       <form
-        action="https://formsubmit.co/kamperman.conor@gmail.com"
+        action="https://formsubmit.co/92624e28ef9115685144e8a01e53b184"
         method="POST"
         className="form-container"
       >
