@@ -14,7 +14,7 @@ const Wrapper = styled.div`
     grid-template-columns: 1fr;
     grid-template-rows: 10rem 2.5rem 18rem 4rem 8rem auto;
     margin-bottom: 2rem;
-    /* min-height: 40rem; */
+
     height: 100%;
   }
   .title {

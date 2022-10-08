@@ -101,6 +101,15 @@ const Wrapper = styled.div`
   @media screen and (max-width: 900px) {
     margin-left: 5rem;
     width: calc(100vw - 5rem);
+    .text {
+      font-size: 1.5rem;
+    }
+    .heading {
+      font-size: 2rem;
+    }
+    .name {
+      font-size: 2rem;
+    }
   }
   @media screen and (max-width: 600px) {
     margin-left: 2.5rem;

@@ -36,6 +36,7 @@ const Wrapper = styled.div`
     border-bottom: 2px solid black;
     border-top-right-radius: 0.5rem;
     border-top-left-radius: 0.5rem;
+    align-items: flex-end;
   }
   .img {
     width: 62rem;
