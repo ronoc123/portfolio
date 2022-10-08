@@ -30,7 +30,7 @@ const About = () => {
               </a>
             </div>
             <a
-              href="https://github.com/ronoc123"
+              href="https://www.linkedin.com/in/conor-kamperman-34a469248/"
               target="_blank"
               className="logo logo2"
             >

@@ -66,6 +66,7 @@ const Wrapper = styled.div`
     height: 100%;
     border-radius: 0.2rem;
     justify-self: right;
+    min-height: 1.5rem;
   }
   .hidden {
     display: hidden;
@@ -77,6 +78,7 @@ const Wrapper = styled.div`
     font-size: 1rem;
     width: 60%;
     height: 100%;
+    min-height: 1.5rem;
     display: grid;
     justify-self: left;
     place-items: center;
@@ -93,8 +95,8 @@ const Wrapper = styled.div`
   }
 
   @media screen and (max-width: 900px) {
-    margin-left: 2rem;
-    width: calc(100vw - 2rem);
+    margin-left: 5rem;
+    width: calc(100vw - 5rem);
     .demo-btn {
       font-size: 0.5rem;
     }
@@ -108,13 +110,18 @@ const Wrapper = styled.div`
       grid-template-columns: auto 1fr auto;
     }
   }
+  @media screen and (max-width: 600px) {
+    margin-left: 2.5rem;
+    width: calc(100vw - 2.5rem);
+  }
   @media screen and (max-width: 1500px) {
     .project-big {
       display: none;
     }
     .small-project {
       transition: var(--transition);
-      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr auto;
+      row-gap: 1rem;
     }
     .small-project:hover {
       border: 2px solid #cefad0;

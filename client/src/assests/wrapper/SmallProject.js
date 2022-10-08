@@ -44,10 +44,9 @@ const Wrapper = styled.div`
     width: 100%;
     height: 30%;
   }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 900px) {
     display: grid;
-    font-size: 0.7em;
-    /* min-width: 20rem; */
+    font-size: 0.9em;
     max-width: 100%;
     height: 50%;
     height: 30%;
