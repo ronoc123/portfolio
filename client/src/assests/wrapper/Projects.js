@@ -60,14 +60,13 @@ const Wrapper = styled.div`
     background: var(--clr-primary-5);
     color: white;
     font-size: 1rem;
-    padding: 0.2rem;
+    padding: 0.3rem;
     display: grid;
     place-items: center;
-    width: 50%;
-    height: 100%;
+    width: 60%;
+    /* height: 100%; */
     border-radius: 0.2rem;
     justify-self: right;
-    min-height: 1.5rem;
   }
   .hidden {
     display: hidden;
@@ -77,13 +76,13 @@ const Wrapper = styled.div`
     background: var(--clr-primary-5);
     color: white;
     font-size: 1rem;
+    padding: 0.3rem;
+
     width: 60%;
-    height: 100%;
-    min-height: 1.5rem;
     display: grid;
     justify-self: left;
     place-items: center;
-    padding: 0.5rem;
+
     border-radius: 0.2rem;
   }
   .btn-container {
