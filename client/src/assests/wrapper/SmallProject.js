@@ -38,21 +38,24 @@ const Wrapper = styled.div`
     color: #00ab41;
   }
 
-  @media screen and (max-width: 1500px) {
+  @media screen and (max-width: 1100px) {
     display: grid;
-    /* min-width: 35rem; */
     width: 100%;
-    height: 30%;
+    .text {
+      margin-bottom: 2rem;
+    }
+    .btn-container {
+      padding: 0.5rem;
+    }
+    text-align: center;
   }
   @media screen and (max-width: 900px) {
     display: grid;
     font-size: 0.9em;
     max-width: 100%;
-    height: 50%;
-    height: 30%;
 
     .title {
-      font-size: 1.3rem;
+      font-size: 1rem;
     }
     .icon {
       font-size: 1.5rem;
