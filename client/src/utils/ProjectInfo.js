@@ -1,6 +1,7 @@
 import bugTracker from "../assests/images/bug.jpg";
 import store from "../assests/images/store.jpg";
 import inventory from "../assests/images/inventory.jpg";
+import movieinfo1 from "../assests/images/movieinfo1.jpg";
 import { FaBug } from "react-icons/fa";
 import { TbBuildingSkyscraper } from "react-icons/tb";
 import { SiGoogletagmanager } from "react-icons/si";
@@ -27,6 +28,18 @@ const project = [
     code: "https://github.com/ronoc123/e-commerce",
     image: store,
     icon: <TbBuildingSkyscraper />,
+    color: "orange",
+  },
+  {
+    logo: "logo4",
+    title: "Movie Hub",
+    description:
+      "Movie app that displays information about popular movies and Tv series",
+    info: "Front-end application utilizing React and the Movie DB Api.",
+    code: "https://github.com/ronoc123/movies",
+    live: "https://movie-hub-watch.netlify.app/",
+    image: movieinfo1,
+    icon: <SiGoogletagmanager />,
     color: "orange",
   },
   {
